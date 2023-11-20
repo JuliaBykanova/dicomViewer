@@ -1,7 +1,0 @@
-.tableRow:nth-child(2n){
-  background-color: var(--light-blue);
-}
-
-.highlighted{
-  border: 3px solid var(--btn-color);
-}

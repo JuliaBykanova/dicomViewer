@@ -1,0 +1,19 @@
+.toolsPanel{
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.toolsBtn{
+  padding: 4px 8px;
+  border-radius: 8px;
+  background-color: var(--blue);
+  color: var(--dark-blue);
+}
+
+.activeToolsBtn{
+  padding: 4px 8px;
+  border-radius: 8px;
+  background-color: var(--btn-color);
+  color: var(--white);
+}

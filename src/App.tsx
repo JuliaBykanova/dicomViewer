@@ -2,25 +2,25 @@ import React from 'react';
 import { Layout } from './components/Layout';
 import './main.global.css';
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
-import { TemplatePage } from './pages/TemplatePage';
+import { MainPage } from './pages/MainPage';
+import {store} from './redux/redux-store';
 import { Provider } from 'react-redux';
-import store from './redux/redux-store';
-
+import { initCornerstone } from './utils/initiators/initCornerstone';
 
  export function App() {
-
+  initCornerstone();
+  
   return(
-    <Provider store={store}>
+    //<Provider store={store}>
       <Layout>
         <BrowserRouter>
           <Routes>
-            <Route path='/templates' element={<TemplatePage/>}></Route>
-            <Route path='/templates/:idParam' element={<TemplatePage/>}></Route>
-            <Route path='/' element={ <Navigate to='/templates'/> }/>
+            <Route path='/main' element={<MainPage/>}></Route>
+            <Route path='/' element={ <Navigate to='/main'/> }/>
           </Routes>
         </BrowserRouter>
       </Layout>
-    </Provider>
+    //</Provider>
   );
 };
 

@@ -1,0 +1,40 @@
+.container{
+  max-width: 1800px;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+
+.actionBlock{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.flterBlock{
+  margin-bottom: 20px;
+}
+
+.content{
+  margin-bottom: 25px;
+}
+
+.viewport{
+  width: 700px;
+  height: 500px;
+}
+
+.link{
+  padding: 11px 18px 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  color: var(--white);
+  background-color: var(--btn-color);
+}
+
+.attrBlock{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 50%;
+  margin-left: 8px;
+}

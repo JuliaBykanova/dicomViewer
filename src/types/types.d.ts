@@ -13,3 +13,19 @@ declare module "*.svg" {
   const src: string;
   export default src;
 }
+
+//declare module "dicom-parser";
+declare module "cornerstone-wado-image-loader";
+declare module "cornerstone-math";
+declare module "cornerstone-tools";
+declare module "hammerjs";
+declare module 'dcmjs';
+declare module "react-cornerstone-viewport";
+
+declare global {
+  interface Window {
+      cornerstoneTools:any;
+      cornerstone:any;
+      cornerstoneWADOImageLoader: any;
+  }
+}

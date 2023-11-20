@@ -33,7 +33,6 @@ html {
 *::after {
 	-webkit-box-sizing: inherit;
 	        box-sizing: inherit;
-          color: var(--dark-blue);
 }
 
 *,
@@ -110,52 +109,6 @@ body {
   font-size: 17px;
   line-height: 130%;
   font-family: 'Roboto', serif;
-}
-
-.react-tagsinput {
-  background-color: var(--white);
-  border: 1px solid var(--dark-blue); 
-  border-radius: 8px;
-  font-size: 17px;
-  color: var(--dark-blue);
-  overflow: hidden;
-  padding: 10px;
-}
-
-/*.react-tagsinput--focused {
-  border-color: #a5d24a;
-}*/
-
-.react-tagsinput-tag {
-  background-color: var(--btn-color);
-  border-radius: 4px;
-  color: var(--white);
-  display: inline-block;
-  font-family: 'Roboto', sans-serif;
-  font-size: 17px;
-  margin-right: 8px;
-  padding: 5px;
-}
-
-.react-tagsinput-remove {
-  cursor: pointer;
-  font-weight: bold;
-  margin-left: 7px;
-}
-
-.react-tagsinput-tag a::before {
-  content: "  x";
-  color: var(--white);
-}
-
-.react-tagsinput-input {
-  background: transparent;
-  border: 0;
-  color: var(--dark-blue);
-  font-family: 'Roboto', sans-serif;
-  font-size: 17px;
-  outline: none;
-  padding: 5px;
 }
 
 .deactivate{
